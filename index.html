@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>夜なべ番組表</title>
+<meta name="description" content="今期アニメの放送と配信。公式サイトで確かめた日つき。">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <h1><img src="favicon.svg" alt="" width="32" height="32">夜なべ番組表</h1>
+    <p class="lead">今期アニメの放送と配信。公式サイトで確かめた日つき。</p>
+    <p class="updated" id="updated"></p>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="filters" aria-label="絞り込み">
+    <label class="search">
+      <span class="visually-hidden">作品名で探す</span>
+      <input type="search" id="q" placeholder="作品名で探す（ひらがな・カタカナどちらでも）" autocomplete="off">
+    </label>
+    <div class="filter-row">
+      <span class="filter-label">曜日</span>
+      <div class="chips" id="days"></div>
+    </div>
+    <details class="filter-services" id="services-box">
+      <summary>配信サービス <span id="services-count"></span></summary>
+      <div class="chips" id="services"></div>
+      <p class="hint">選んだサービスのどれかで観られる作品を出します。</p>
+    </details>
+    <div class="filter-row">
+      <button type="button" class="chip" id="recent" aria-pressed="false">今週更新された作品だけ</button>
+      <button type="button" class="link-button" id="reset" hidden>条件をクリア</button>
+    </div>
+    <p class="result-count" id="count" aria-live="polite"></p>
+  </section>
+
+  <nav class="day-nav" id="day-nav" aria-label="曜日へ移動"></nav>
+  <div id="list"><p class="loading">読み込み中…</p></div>
+
+  <section class="about" id="about">
+    <h2>このページについて</h2>
+    <dl>
+      <dt>確認日</dt>
+      <dd>「公式サイトで確認：10/31」は、その日に取得した作品の公式サイトの内容と照らして確かめた、という意味です。その後に配信先や開始日が変わっていることがあります。観る前に各配信サービスでもご確認ください。</dd>
+      <dt>「更新」の印</dt>
+      <dd>前回の確認から配信先が増えた、または配信開始日が変わった作品に、変わった日と一緒に付けます（直近2週間）。</dd>
+      <dt>「配信：確認中」</dt>
+      <dd>公式サイトで配信先をまだ確かめられていない作品です。推測では埋めていません。</dd>
+      <dt>データの出どころ</dt>
+      <dd>放送日時・放送局：<a href="https://cal.syoboi.jp/" rel="noopener noreferrer" target="_blank">しょぼいカレンダー</a>のデータを使っています。<br>
+        配信サービス・配信開始日：各作品の公式サイトを機械で読み取り、その結果を AI（Claude）が公式サイトの内容と照らして確認したものだけを載せています。人による確認はしていないため、誤りが残っていることがあります。出典のリンクは確かめたページです。</dd>
+      <dt>更新</dt>
+      <dd>週に1回。放送時間の変更（特番・休止など）がすぐには反映されないことがあります。</dd>
+      <dt>まちがいを見つけたら</dt>
+      <dd><a href="https://github.com/yonabelab/yonabe-bangumi/issues" rel="noopener noreferrer" target="_blank">GitHub の Issues</a> か、X（<a href="https://x.com/yonabelab" rel="noopener noreferrer" target="_blank">@yonabelab</a>）の DM でお知らせください。</dd>
+      <dt>アクセス解析</dt>
+      <dd>ページの閲覧数を知るために、Cloudflare, Inc. の Cloudflare Web Analytics を使っています。ページを開いたときに、ページのアドレス、参照元、ブラウザの種類、表示にかかった時間などが Cloudflare に送られます。Cookie は使わず、個人を特定する情報は集めていません。検索や絞り込みの条件はこのページのアドレスに残ります。条件を付けたアドレスでページを開いたときは、その条件もアドレスの一部として送られます。条件を変えるたびに送ることはしていません。</dd>
+      <dt>運営</dt>
+      <dd>夜なべ工房（yonabelab）の個人のツールです。各作品・配信サービス・しょぼいカレンダーの公式のものではなく、提携もしていません。作品の画像やあらすじは載せず、公式サイトへのリンクだけにしています。</dd>
+    </dl>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">夜なべ番組表 · 夜なべ工房（yonabelab） · <a href="#about">このページについて</a></div>
+</footer>
+
+<!-- Cloudflare Web Analytics（DESIGN.md 9章）。spa: false で、検索・絞り込みでアドレスが変わるたびに送らないようにする（読み込んだときの1回だけ） --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "32c17f88a9d144819aa0683d14bff404", "spa": false}'></script><!-- End Cloudflare Web Analytics -->
+<script src="app.js"></script>
+</body>
+</html>
