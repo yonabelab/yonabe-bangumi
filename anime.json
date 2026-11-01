@@ -615,7 +615,7 @@
     {
      "service": "ABEMA",
      "start": "2026-10-03",
-     "time": "02:00",
+     "time": "26:00",
      "kind": "見放題",
      "source": "https://revo-anime.com/",
      "checked": "2026-10-24"
@@ -623,7 +623,7 @@
     {
      "service": "dアニメストア",
      "start": "2026-10-03",
-     "time": "02:00",
+     "time": "26:00",
      "kind": "見放題",
      "source": "https://revo-anime.com/",
      "checked": "2026-10-24"
@@ -2245,7 +2245,7 @@
     {
      "service": "ABEMA",
      "start": "2026-10-08",
-     "time": "00:30",
+     "time": "24:30",
      "kind": "見放題",
      "source": "https://korinojoheki-pr.com/",
      "checked": "2026-10-24"
@@ -2253,7 +2253,7 @@
     {
      "service": "DMM TV",
      "start": "2026-10-08",
-     "time": "00:30",
+     "time": "24:30",
      "kind": "見放題",
      "source": "https://korinojoheki-pr.com/",
      "checked": "2026-10-24"
@@ -2261,7 +2261,7 @@
     {
      "service": "Disney+",
      "start": "2026-10-08",
-     "time": "00:30",
+     "time": "24:30",
      "kind": "見放題",
      "source": "https://korinojoheki-pr.com/",
      "checked": "2026-10-24"
@@ -2269,7 +2269,7 @@
     {
      "service": "FOD",
      "start": "2026-10-08",
-     "time": "00:30",
+     "time": "24:30",
      "kind": "見放題",
      "source": "https://korinojoheki-pr.com/",
      "checked": "2026-10-24"
@@ -2277,7 +2277,7 @@
     {
      "service": "Google TV",
      "start": "2026-10-08",
-     "time": "00:30",
+     "time": "24:30",
      "kind": "レンタル",
      "source": "https://korinojoheki-pr.com/",
      "checked": "2026-10-24"
@@ -2285,7 +2285,7 @@
     {
      "service": "Hulu",
      "start": "2026-10-08",
-     "time": "00:30",
+     "time": "24:30",
      "kind": "見放題",
      "source": "https://korinojoheki-pr.com/",
      "checked": "2026-10-24"
@@ -2293,7 +2293,7 @@
     {
      "service": "Lemino",
      "start": "2026-10-08",
-     "time": "00:30",
+     "time": "24:30",
      "kind": "見放題",
      "source": "https://korinojoheki-pr.com/",
      "checked": "2026-10-24"
@@ -2301,7 +2301,7 @@
     {
      "service": "Prime Video",
      "start": "2026-10-08",
-     "time": "00:30",
+     "time": "24:30",
      "kind": "レンタル",
      "source": "https://korinojoheki-pr.com/",
      "checked": "2026-10-24"
@@ -2309,7 +2309,7 @@
     {
      "service": "Prime Video",
      "start": "2026-10-08",
-     "time": "00:30",
+     "time": "24:30",
      "kind": "見放題",
      "source": "https://korinojoheki-pr.com/",
      "checked": "2026-10-24"
@@ -2317,7 +2317,7 @@
     {
      "service": "U-NEXT",
      "start": "2026-10-08",
-     "time": "00:30",
+     "time": "24:30",
      "kind": "見放題",
      "source": "https://korinojoheki-pr.com/",
      "checked": "2026-10-24"
@@ -2325,7 +2325,7 @@
     {
      "service": "dアニメストア",
      "start": "2026-10-08",
-     "time": "00:30",
+     "time": "24:30",
      "kind": "見放題",
      "source": "https://korinojoheki-pr.com/",
      "checked": "2026-10-24"
@@ -2333,7 +2333,7 @@
     {
      "service": "music.jp",
      "start": "2026-10-08",
-     "time": "00:30",
+     "time": "24:30",
      "kind": "レンタル",
      "source": "https://korinojoheki-pr.com/",
      "checked": "2026-10-24"
@@ -2341,7 +2341,7 @@
     {
      "service": "アニメタイムズ",
      "start": "2026-10-08",
-     "time": "00:30",
+     "time": "24:30",
      "kind": "見放題",
      "source": "https://korinojoheki-pr.com/",
      "checked": "2026-10-24"
@@ -2349,7 +2349,7 @@
     {
      "service": "ニコニコ",
      "start": "2026-10-08",
-     "time": "00:30",
+     "time": "24:30",
      "kind": "レンタル",
      "source": "https://korinojoheki-pr.com/",
      "checked": "2026-10-24"
@@ -2357,7 +2357,7 @@
     {
      "service": "バンダイチャンネル",
      "start": "2026-10-08",
-     "time": "00:30",
+     "time": "24:30",
      "kind": "見放題",
      "source": "https://korinojoheki-pr.com/",
      "checked": "2026-10-24"
@@ -2365,7 +2365,7 @@
     {
      "service": "バンダイチャンネル",
      "start": "2026-10-08",
-     "time": "00:30",
+     "time": "24:30",
      "kind": "レンタル",
      "source": "https://korinojoheki-pr.com/",
      "checked": "2026-10-24"
@@ -2373,7 +2373,7 @@
     {
      "service": "ビデオマーケット",
      "start": "2026-10-08",
-     "time": "00:30",
+     "time": "24:30",
      "kind": "レンタル",
      "source": "https://korinojoheki-pr.com/",
      "checked": "2026-10-24"
@@ -2381,7 +2381,7 @@
     {
      "service": "ムービーフルPlus",
      "start": "2026-10-08",
-     "time": "00:30",
+     "time": "24:30",
      "kind": "レンタル",
      "source": "https://korinojoheki-pr.com/",
      "checked": "2026-10-24"
@@ -2445,7 +2445,7 @@
     {
      "service": "WOWOWオンデマンド",
      "start": "2026-10-15",
-     "time": "00:30",
+     "time": "24:30",
      "kind": "見放題",
      "source": "https://korinojoheki-pr.com/",
      "checked": "2026-10-24"
